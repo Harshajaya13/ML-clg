@@ -1,7 +1,5 @@
-# Ignore everything
 *
 
-# But keep these files
 !.gitignore
 !Bengaluru_House_Data.xls
 !HousingData.xls
