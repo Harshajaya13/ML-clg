@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But keep these files
+!.gitignore
+!Bengaluru_House_Data.xls
+!HousingData.xls
+!logistic.ipynb
+!lab2.ipynb
+!lab.ipynb
+!multiple.ipynb
