@@ -1,10 +1,24 @@
-*
 
+*
 !.gitignore
+
+# Root notebooks only
+!lab.ipynb
+!lab2.ipynb
+!logistic.ipynb
+!multiple.ipynb
+
+# Root Excel files
 !Bengaluru_House_Data.xls
 !HousingData.xls
-!logistic.ipynb
-!lab2.ipynb
-!lab.ipynb
-!multiple.ipynb
+
+# Allow everything in this folder
 !Scenario-Based/
+!Scenario-Based/**
+
+# But ignore notebooks inside subfolders
+Scenario-Based/**/*.ipynb
+
+# Ignore Jupyter checkpoints
+**/.ipynb_checkpoints/
+**/.ipynb_checkpoints/**
